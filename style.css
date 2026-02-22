@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Comic+Relief:wght@400;700&family=Hachi+Maru+Pop&family=Playpen+Sans+Arabic:wght@100..800&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Comic+Relief:wght@400;700&family=Hachi+Maru+Pop&family=Playpen+Sans+Arabic:wght@100..800&family=Schoolbell&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffc34b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+  font-family: "Chelsea Market", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #54312d;
+  margin-top: 3rem;
+}
+
+h2 {
+  font-family: "Schoolbell", cursOive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+  color: #fff0de;
+}
+
+button {
+    padding: 1rem;
+    border: 1px solid #c85555;
+    border-radius: 1rem;
+    background-color: #f7bcb0;
+    font-family: "Schoolbell", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff0de;
+}
+
+button:hover {
+    background-color: #e58585;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-family: "Schoolbell", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: #fff0de;
+    background-color: #e58585;
+}
