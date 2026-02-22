@@ -57,11 +57,14 @@ p {
     color: #fff0de;
     background-color: #e58585;
 }
-
-@media (max-width = 600px) {
+@media (max-width: 600px) {
     body {
         padding: 1rem;
         text-align: center;
+    }
+
+    h1, h2 {
+        text-align: center;   /* força centralização */
     }
 
     h1 {
@@ -85,9 +88,9 @@ p {
     }
 
     img {
-        width: 100%;
-        max-width: 350px;
+        width: 120vw;       /* ocupa toda a largura */
         margin: 1rem 0;
-        height: 0;
+        height: auto;      /* mantém proporção */
+        display: block;    /* garante que não fique inline */
     }
 }
