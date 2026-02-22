@@ -57,3 +57,37 @@ p {
     color: #fff0de;
     background-color: #e58585;
 }
+
+@media (max-width = 600px) {
+    body {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-top: 1.5rem;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 0.5rem;
+    }
+
+    button {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    img {
+        width: 100%;
+        max-width: 350px;
+        margin: 1rem 0;
+        height: 0;
+    }
+}
