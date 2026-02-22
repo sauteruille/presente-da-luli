@@ -7,6 +7,7 @@ let h1 = document.getElementById("h1");
 let  p = "Vejam essa menina linda!!";
 
 botao.addEventListener ("click", function abrirPresente() {
+    alert("IMAGENS NÃO FICAM LEGAIS NO COMPUTADOR!!! Se estiver no celular pode só fechar esse alerta e continuar com a sua surpresa especial :)")
     if (estado == 0) {
         imagem.src = "imagem.png";
         imagem.style.display = "block";
@@ -33,4 +34,5 @@ botao.addEventListener ("click", function abrirPresente() {
         estado = 0;
     }
 });
+
 
